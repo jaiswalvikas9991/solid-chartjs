@@ -11,8 +11,6 @@ export default function DefaultChart(props: ChartProps) {
 
     const merged = mergeProps(
         {
-            width: 512,
-            height: 512,
             type: 'line',
             data: {} as ChartData,
             options: { responsive: true } as ChartOptions,
